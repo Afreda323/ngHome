@@ -4,7 +4,7 @@ angular
 				
 				
 				function getHomes() {
-					return $http.get('../data/data.json');
+					return $http.get('../data.json');
 				};
 				
 				return {
