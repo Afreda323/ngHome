@@ -21,6 +21,7 @@ angular
 				homeFactory.getHomes().success(function(data) {
 					$scope.homes = data;
 				}).error(function(error) {
+				  alert("hello")
 				});		
 		
 		});
